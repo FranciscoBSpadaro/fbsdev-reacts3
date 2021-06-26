@@ -60,13 +60,12 @@ class App extends Component {
     });
   };
 
-  processUpload = uploadedFile => {
+  processUpload = async uploadedFile => {
     const data = new FormData();
 
     data.append("file", uploadedFile.file, uploadedFile.name);
 
-    api
-      .post("posts", data, {
+     await api.post("posts", data, {
         onUploadProgress: e => {
           const progress = parseInt(Math.round((e.loaded * 100) / e.total));
 
