@@ -10,6 +10,8 @@ import { Container, Content } from "./styles";
 import Upload from "./components/Upload";
 import FileList from "./components/FileList";
 
+import Title from './Title';
+
 class App extends Component {
   state = {
     uploadedFiles: []
@@ -106,6 +108,7 @@ class App extends Component {
 
     return (
       <Container>
+        <Title />
         <Content>
           <Upload onUpload={this.handleUpload} />
           {!!uploadedFiles.length && (
