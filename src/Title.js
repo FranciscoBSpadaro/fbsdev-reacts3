@@ -5,7 +5,7 @@ function Title() {
   return (
     <div className="Title">
       <h1>Upload de imagens</h1>
-            <div className="Title-Subtitle">upload de qualquer formato até 8mb para o bucket s3 da aws </div>
+            <div className="Title-Subtitle">upload de qualquer formato até 8mb para s3 da AWS </div>
     </div>
   )
 }
