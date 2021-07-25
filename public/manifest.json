@@ -1,6 +1,6 @@
 {
-  "short_name": "FBS-DEV Uploads",
-  "name": "Uploads Images to s3 bucket",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",

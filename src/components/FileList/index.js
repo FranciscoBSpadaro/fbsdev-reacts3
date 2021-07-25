@@ -1,6 +1,5 @@
 import React from "react";
-// circularprogessbar entre {} para nao dar erro de export
-import { CircularProgressbar } from "react-circular-progressbar";
+import CircularProgressbar from "react-circular-progressbar";
 import { MdCheckCircle, MdError, MdLink } from "react-icons/md";
 
 import { Container, FileInfo, Preview } from "./styles";

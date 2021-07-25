@@ -1,9 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL
+  baseURL: "http://localhost:3000"
 });
 
 export default api;
-
-//REACT_APP_API_URL =  config vars url app heroku url do server backend  https://fbsdev-uploads3.herokuapp.com
