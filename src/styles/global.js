@@ -17,6 +17,10 @@ export default createGlobalStyle`
     background: rgb(46 44 53);
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 
   html, body, #root {
