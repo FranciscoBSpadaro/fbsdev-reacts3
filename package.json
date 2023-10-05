@@ -15,8 +15,9 @@
     "styled-components": "^4.1.3"
   },
   "scripts": {
-    "prebuild": "echo npm install",
-    "postbuild": "echo react-scripts start"
+    "prebuild": "npm install",
+    "build": "npm run postbuild",
+    "postbuild": "react-scripts start"
   },
   "eslintConfig": {
     "extends": "react-app"
