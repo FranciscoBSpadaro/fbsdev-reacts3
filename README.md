@@ -1,15 +1,18 @@
 # fbsdev-reacts3
-esse é o front end feito em react para o projeto de caso de uso de integração heroku,mongodb, aws s3
 
-### Caso de uso é fazer uploads como os do site IMGUR
+### Caso de uso / Uploads de imagens como os do site IMGUR
 - live page:
-https://fbs-dev-uploads3..
-
- - edit : heroku cobrando pelos serviços, deletei do heroku   logo vou subir o app pela AWS.
+ - http://fbs-dev-uploads3.us-east-1.elasticbeanstalk.com
+  
+- Updates
  - adicionado script , "devstart": "react-scripts --openssl-legacy-provider start", para resolver error:0308010C:digital envelope routines::unsupported , para o ambiente de desenvolvimento local.
+ - Atualizado os modulos para versão final
+ - Atualizado react-circular-progressbar > https://github.com/kevinsqi/react-circular-progressbar/blob/HEAD/UPGRADING.md
+ - Realizado imagração do site do Heroku para AWS , AWS ElasticBeanStalk
+ - Adicionado Procfile
    
-
-- backend service
+### WebApp Integrado com AWS ElasticBeanStalk + AWS S3 + MONGODB
+- backend api github :
 https://github.com/FranciscoBSpadaro/fbsdev-uploads3
 
 
