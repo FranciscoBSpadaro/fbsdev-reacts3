@@ -11,6 +11,7 @@ import Upload from "./components/Upload";
 import FileList from "./components/FileList";
 
 import Title from './Title';
+import Githublink from './Githublink';
 
 class App extends Component {
   state = {
@@ -115,6 +116,7 @@ class App extends Component {
             <FileList files={uploadedFiles} onDelete={this.handleDelete} />
           )}
         </Content>
+        <Githublink />
         <GlobalStyle />
       </Container>
     );
